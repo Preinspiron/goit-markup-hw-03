@@ -1,98 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Main mage</title>
-	</head>
-	<body>
-		<header>
-			<nav>
-				<a href="/"><span>WEB</span>STUDIO</a>
-				<ul>
-					<li><a href="/studio">Studio</a></li>
-					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/contacts">Contacts</a></li>
-				</ul>
-			</nav>
-			<address>
-				<ul>
-					<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-				</ul>
-			</address>
-		</header>
-		<main>
-			<section>
-				<h1>Effective Solutions for Your Business</h1>
-				<button type="button">Order Service</button>
-			</section>
-			<section>
-				<h2 hidden>Our benefits</h2>
-				<ul>
-					<li>
-						<h3>Strategy</h3>
-						<p>
-							Our goal is to identify the business
-							problem to walk away with the perfect and creative solution.
-						</p>
-					</li>
-					<li>
-						<h3>Punctuality</h3>
-						<p>
-							Bring the key message to the brand's audience for the best price within the shortest possible time.
-						</p>
-					</li><li>
-						<h3>Diligence</h3>
-						<p>
-							Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-						</p>
-					</li><li>
-						<h3>Technologies</h3>
-						<p>
-							Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-						</p>
-					</li>
-				</ul>
-			</section>
-			<section>
-				<h2>What are we doing</h2>
-				<ul>
-					<li><img src="./images/display.jpg" width="360" alt="Display with some app preview"></li>
-					<li><img src="./images/chatscreens.jpg" width="360" alt="Smartphone with chat app screenshots"></li>
-					<li><img src="./images/smartphone.jpg" width="360" alt="Smartphone preview"></li>
-				</ul>
-			</section>
-			<section>
-				<h2>Our Team</h2>
-				<ul>
-					<li>
-						<img src="./images/team_mark.jpg" width="264" alt="Mark Guerrero, Product Designer">
-						<h3>Mark Guerrero</h3>
-						<p>Product Designer</p>
-					</li>
-					<li>
-						<img src="./images/team_tom.jpg" width="264" alt="Tom Ford, Frontend Developer">
-						<h3>Tom Ford</h3>
-						<p>Frontend Developer</p>
-					</li>
-					<li>
-						<img src="./images/team_camila.jpg" width="264" alt="Camila Garcia, Marketing">
-						<h3>Camila Garcia</h3>
-						<p>Marketing</p>
-					</li>
-					<li>
-						<img src="./images/team_daniel.jpg" width="264" alt="Daniel Wilson, UI Designer">
-						<h3>Daniel Wilson</h3>
-						<p>UI Designer</p>
-					</li>
-				</ul>
-			</section>
-		</main>
-		<footer>
-			<a href=""><span>WEB</span>STUDIO</a>
-			<p>Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.</p>
-		</footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main mage</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a class="logo" href="/">
+          <span class="logo-accent">web</span>studio
+        </a>
+        <ul class="list">
+          <li>
+            <a class="link" href="/studio">Studio</a>
+          </li>
+          <li>
+            <a class="link" href="./portfolio.html" target="_self">Portfolio</a>
+          </li>
+          <li>
+            <a class="link" href="/contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="contacts">
+        <ul class="list">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+    </header>
+    <main>
+      <!-- !HERO -->
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="button primery" type="button">Order Service</button>
+      </section>
+      <!-- !FEATURE -->
+      <section class="section">
+        <h2 class="hidden">Our features</h2>
+        <ul class="feature list">
+          <li>
+            <h3 class="title">Strategy</h3>
+            <p class="text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">Punctuality</h3>
+            <p class="text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">Diligence</h3>
+            <p class="text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+          <li>
+            <h3 class="title">Technologies</h3>
+            <p class="text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- !WHAT ARE WE DOING -->
+      <section class="section">
+        <h2 class="title">What are we doing</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/index_page/display.jpg"
+              width="360"
+              alt="Display with some app preview"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/index_page/chatscreens.jpg"
+              width="360"
+              alt="Smartphone with chat app screenshots"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/index_page/smartphone.jpg"
+              width="360"
+              alt="Smartphone preview"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <!-- !OUR TEAM -->
+      <section class="team-section">
+        <h2 class="title">Our Team</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/index_page/team_mark.jpg"
+              width="264"
+              alt="Mark Guerrero, Product Designer"
+            />
+            <h3 class="title">Mark Guerrero</h3>
+            <p class="text">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/index_page/team_tom.jpg"
+              width="264"
+              alt="Tom Ford, Frontend Developer"
+            />
+            <h3>Tom Ford</h3>
+            <p class="text">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/index_page/team_camila.jpg"
+              width="264"
+              alt="Camila Garcia, Marketing"
+            />
+            <h3>Camila Garcia</h3>
+            <p class="text">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/index_page/team_daniel.jpg"
+              width="264"
+              alt="Daniel Wilson, UI Designer"
+            />
+            <h3>Daniel Wilson</h3>
+            <p class="text">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo" href="/"><span class="logo-accent">web</span>studio</a>
+      <p class="text">
+        Increase the flow of customers and sales for your business with digital
+        marketing &amp; growth solutions.
+      </p>
+    </footer>
+  </body>
 </html>
