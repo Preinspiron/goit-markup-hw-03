@@ -120,13 +120,13 @@ body {
 }
 
 /*   !WHAT WE DO   */
-/* .section > .title {
+.section > .title {
   font-size: 36px;
   font-weight: 700;
   line-height: calc(40 / 36);
   letter-spacing: 0.02em;
   color: var(--prime-text);
-} */
+}
 
 /*   !OUR TEAM   */
 .team-section {
