@@ -10,9 +10,9 @@
 
 /*   !UTILS   */
 
-* {
-  /* outline: 1px dashed violet; */
-}
+/* * {
+  outline: 1px dashed violet;
+} */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -269,9 +269,9 @@ p {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  border-right: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid var(--footer-text);
+  border-left: 1px solid var(--footer-text);
+  border-bottom: 1px solid var(--footer-text);
   padding: 32px 16px;
 }
 
