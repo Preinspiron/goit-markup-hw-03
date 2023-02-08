@@ -10,10 +10,6 @@
 
 /*   !UTILS   */
 
-* {
-  /* outline: 1px dashed violet; */
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--prime-text);
@@ -278,7 +274,6 @@ p {
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: ;
 }
 
 .portfolio-cards .card {
