@@ -10,9 +10,9 @@
 
 /*   !UTILS   */
 
-/* * {
-  outline: 1px dashed violet;
-} */
+* {
+  /* outline: 1px dashed violet; */
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -34,7 +34,7 @@ p {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -80,13 +80,19 @@ p {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .nav {
-  display: inline-flex;
+  display: inherit;
   gap: 76px;
 }
+
 .nav .list,
 .contacts .list {
   display: inline-flex;
@@ -105,13 +111,14 @@ p {
 }
 
 /*   !HERO   */
-
 .hero {
+  background-color: var(--prime-text);
+}
+
+.hero .container {
   padding-top: 188px;
   padding-bottom: 188px;
 
-  background-color: var(--prime-text);
-  max-width: 1440px;
   text-align: center;
 }
 
@@ -201,7 +208,9 @@ p {
 }
 
 /*   !WHAT WE DO   */
-
+.whatwedo.section {
+  padding-top: 0;
+}
 .section-title {
   margin-bottom: 72px;
 
@@ -214,7 +223,9 @@ p {
 }
 
 /*   !OUR TEAM   */
-
+.team.section {
+  background-color: var(--background-sec);
+}
 .team .image {
   display: block;
 }
@@ -236,33 +247,22 @@ p {
   align-items: center;
 }
 
-.team {
-  background-color: var(--background-sec);
-  max-width: 1440px;
-  padding-right: 156px;
-  padding-left: 156px;
-}
-
 /*   !PORTFOLIO */
-.porfolio {
+.portfolio.section {
   padding-top: 96px;
 }
 .filter {
   text-align: center;
 }
-.filter .button {
+.filter-list .button {
   padding: 12px 24px;
 }
 .filter-list {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-}
-
-.portfolio .column-flexlist {
-  gap: 0px;
 }
 
 .portfolio .item-content {
@@ -275,26 +275,31 @@ p {
   padding: 32px 16px;
 }
 
-.portfolio .card {
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: ;
+}
+
+.portfolio-cards .card {
   margin-bottom: 47px;
   margin-right: 24px;
 }
-.portfolio .card:nth-last-child(-n + 3) {
+.portfolio-cards .card:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.portfolio .card:nth-child(3n) {
+.portfolio-cards .card:nth-child(3n) {
   margin-right: 0;
 }
 
 /*   !FOOTER   */
 
 .footer {
-  padding-top: 100px;
-  padding-left: 156px;
-  padding-bottom: 100px;
-  max-width: 1440px;
-
   background-color: var(--prime-text);
+}
+.footer .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer .logo {
